@@ -1,6 +1,7 @@
 # Requirements:
 + Node version 8 or above
 + Bash shell
++ Java
 
 # Installation:
 
@@ -23,7 +24,7 @@ OR
 ```
 bash firefox_node_launch.sh
 ```
-5. Then you'll need to unstall the npm 
+5. Then you'll need to install the npm 
 ```
 npm install
 ```
