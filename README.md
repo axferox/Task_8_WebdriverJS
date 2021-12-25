@@ -12,7 +12,7 @@ By default it's used the web drivers for launch on a MacOS
 ```
 bash hub_launch.sh
 ```
-2. Then you'll need to launch the Firefox agent node or Chrome agent node via scripts from 'test/grid'
+2. Then you'll need to launch the Firefox agent node or Chrome agent node via scripts from the project root folder
 ```
 bash chrome_node_1.sh
 ```
