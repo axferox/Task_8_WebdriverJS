@@ -18,7 +18,7 @@ bash chrome_node_1.sh
 ```
 OR
 ```
-bash chrome_node_1.sh
+bash chrome_node_2.sh
 ```
 OR
 ```
