@@ -155,7 +155,7 @@ describe("Test performs the testing of the login and sign up forms", () => {
     expect(await PageFactory.getPage("Sign_up").selected(checkboxMail)).equal(true);
   });
 
-  it("Verify that can be submitted", async () => {
+  it("Verify that form can be submitted", async () => {
     const submitButton = await PageFactory.getPage("Sign_up").registrationSubmitButton;
     await PageFactory.getPage("Sign_up").elementClick(submitButton);
   });
