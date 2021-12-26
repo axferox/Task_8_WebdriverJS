@@ -1,10 +1,10 @@
 const { PageFactory } = require("../utils/page_factory");
-const { browserConfig, quit } = require("../utils/driver/chrome_driver");
+const { browserConfig, sleep, quit } = require("../utils/driver/chrome_driver");
 const { expect } = require("chai");
 const { TestData } = require("../utils/test_data/test_data");
 const { driver } = require("../utils/driver/chrome_driver");
 
-describe("Test performs the testing of the login and sign up forms", () => {
+describe("Test 2 performs the testing of the login and sign up forms", () => {
   before(async () => {
     await browserConfig();
   });
@@ -158,5 +158,4 @@ describe("Test performs the testing of the login and sign up forms", () => {
     const submitButton = await PageFactory.getPage("Sign_up").registrationSubmitButton;
     await PageFactory.getPage("Sign_up").elementClick(submitButton);
   });
-
 });
