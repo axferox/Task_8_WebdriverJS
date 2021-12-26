@@ -6,7 +6,7 @@
     "test": "test/**.spec.js"
   },
   "scripts": {
-    "test": "mocha --timeout 100000"
+    "test": "mocha 'test/**.spec.js' --timeout 100000 --parallel true"
   },
   "repository": {
     "type": "git",
