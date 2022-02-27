@@ -1,1 +1,0 @@
-java -jar grid/selenium/selenium-server-4.1.1.jar node --port 5628 --config grid/selenium/node_config_firefox.toml 
