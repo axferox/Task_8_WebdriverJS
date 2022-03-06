@@ -5,7 +5,7 @@ class CookiePopupPage extends BasePage {
   constructor() {
     super();
     this.cookiePopupModal = new BaseElement({ id: 'cookie-popup' });
-    this.acceptButton = new BaseElement({ id: 'accept-cookies' });
+    this.acceptButton = new BaseElement({ css: '#accept-cookies' });
   }
 }
 

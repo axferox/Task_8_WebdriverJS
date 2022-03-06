@@ -31,7 +31,7 @@ describe('Test performs the testing of the login and sign up forms', () => {
   });
 
   it('Verify that modal can be closed', async () => {
-    await cookiePopup.acceptButton.click();
+    await cookiePopup.acceptButton.elementFindAndClickJavaScript();
   });
 
   it('Verify that menu login button name matches the expected', async () => {
@@ -40,7 +40,8 @@ describe('Test performs the testing of the login and sign up forms', () => {
   });
 
   it('Verify that user is landed on login screen after click on login button', async () => {
-    await homePage.Header.menuLoginButton.click();
+    await homePage.Header.menuLoginButton.hoverAction();
+    await homePage.Header.menuLoginButton.clickAction();
     expect(await DriverUtils.getCurrentUrl()).equal(logInPage.getPageUrl());
   });
 
