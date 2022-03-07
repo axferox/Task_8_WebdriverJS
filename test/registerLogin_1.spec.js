@@ -41,7 +41,7 @@ describe('Test performs the testing of the login and sign up forms', () => {
 
   it('Verify that user is landed on login screen after click on login button', async () => {
     await homePage.Header.menuLoginButton.hoverAction();
-    await homePage.Header.menuLoginButton.clickAction();
+    await homePage.Header.loginButton.clickAction();
     expect(await DriverUtils.getCurrentUrl()).equal(logInPage.getPageUrl());
   });
 
