@@ -1,32 +1,36 @@
 {
-  "name": "task_7_webdriverjs_ah",
+  "name": "task_8_webdriverjs",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test/**.spec.js"
   },
   "scripts": {
-    "test": "mocha 'test/**.spec.js' --timeout 100000 --parallel true"
+    "test": "mocha 'test/**.spec.js' --timeout 10000000 --parallel true"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axferox/Task_7_WebdriverJS_AH.git"
+    "url": "git+https://github.com/axferox/Task_8_WebdriverJS.git"
   },
   "keywords": [],
   "author": "axferox",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/axferox/Task_7_WebdriverJS_AH/issues"
+    "url": "https://github.com/axferox/Task_8_WebdriverJS/issues"
   },
-  "homepage": "https://github.com/axferox/Task_7_WebdriverJS_AH#readme",
+  "homepage": "https://github.com/axferox/Task_8_WebdriverJS#readme",
   "dependencies": {
-    "chromedriver": "^96.0.0",
     "geckodriver": "^2.0.4",
-    "selenium-webdriver": "^4.1.0"
+    "selenium-webdriver": "^4.1.1"
   },
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^9.1.3"
+    "chromedriver": "^97.0.2",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "mocha": "^9.1.3",
+    "randomstring": "^1.2.2"
   },
-  "description": ""
+  "description": "Webdriver task"
 }
